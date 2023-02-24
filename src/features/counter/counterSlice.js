@@ -1,5 +1,10 @@
+/* eslint-disable no-param-reassign */
+// It is safe to use eslint-disable no-param-reassign for the entire page,
+// because Redux Toolkit doesn't actually mutate the state.
+// More info about it in the counterSlice function below.
+
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchCount } from './counterAPI';
+import fetchCount from './counterAPI';
 
 const initialState = {
   value: 0,
