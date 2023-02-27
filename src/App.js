@@ -1,9 +1,9 @@
-import './App.css';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="Header">
+    <div>
+      <header className="text-center">
         <h1>Shopping Cart</h1>
       </header>
     </div>
