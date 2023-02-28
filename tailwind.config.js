@@ -2,7 +2,18 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        rampart: ['Rampart One', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        'tropical-indigo': '#9E8AD6',
+        'persian-pink': '#E88FC2',
+        'light-green': '#9DF9B8',
+        'davys-gray': '#4D4D4D',
+      },
+    },
   },
   plugins: [],
 };
