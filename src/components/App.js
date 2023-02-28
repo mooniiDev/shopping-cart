@@ -1,11 +1,13 @@
+// Components imports
+import Header from './Header/Header';
+
+// Styling imports
 import '../index.css';
 
 function App() {
   return (
     <div>
-      <header className="text-center">
-        <h1>Shopping Cart</h1>
-      </header>
+      <Header />
     </div>
   );
 }
