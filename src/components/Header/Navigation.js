@@ -1,12 +1,16 @@
 function Navigation() {
   return (
-    <nav className="hidden">
-      <ul>
-        <li>
-          <a href="/">HOME</a>
+    <nav>
+      <ul className="flex text-xl">
+        <li className="flex h-16 w-1/2 justify-center bg-persian-pink">
+          <a href="/" className="self-center font-bold">
+            HOME
+          </a>
         </li>
-        <li>
-          <a href="/shop">SHOP</a>
+        <li className="flex h-16 w-1/2 justify-center bg-light-green">
+          <a href="/shop" className="self-center font-bold">
+            SHOP
+          </a>
         </li>
       </ul>
     </nav>

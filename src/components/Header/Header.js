@@ -6,11 +6,12 @@ import CheckoutButton from './CheckoutButton';
 
 function Header() {
   return (
-    <header className="flex justify-evenly bg-tropical-indigo py-5 text-white">
-      <MenuToggle />
+    <header className="flex flex-col bg-tropical-indigo text-white">
+      <div className="flex justify-evenly py-5">
         <ToggleButton />
         <Logo />
         <CheckoutButton />
+      </div>
       <Navigation />
     </header>
   );
