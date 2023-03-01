@@ -1,12 +1,12 @@
 // Font Awesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 
-function BagIcon() {
+function CheckoutButton() {
   return (
     <button type="button" className="self-center text-3xl">
       <FontAwesomeIcon
-        icon={faBagShopping}
+        icon={faShoppingBag}
         className="fa-fw"
         pointerEvents="none"
       />
@@ -14,4 +14,4 @@ function BagIcon() {
   );
 }
 
-export default BagIcon;
+export default CheckoutButton;

@@ -1,16 +1,17 @@
 // Components imports
 import Logo from './Logo';
-import MenuToggle from './MenuToggle';
+import ToggleButton from './ToggleButton';
 import Navigation from './Navigation';
-import BagIcon from './BagIcon';
+import CheckoutButton from './CheckoutButton';
 
 function Header() {
   return (
     <header className="flex justify-evenly bg-tropical-indigo py-5 text-white">
       <MenuToggle />
-      <Logo />
+        <ToggleButton />
+        <Logo />
+        <CheckoutButton />
       <Navigation />
-      <BagIcon />
     </header>
   );
 }
