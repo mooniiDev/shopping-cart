@@ -5,6 +5,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'react-app',
+    'react-app/jest',
     'airbnb',
     'airbnb/hooks',
     'plugin:prettier/recommended',
