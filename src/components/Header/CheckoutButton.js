@@ -4,7 +4,11 @@ import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 
 function CheckoutButton() {
   return (
-    <button type="button" className="flex justify-end text-3xl md:w-52">
+    <button
+      type="button"
+      className="flex justify-end text-3xl md:w-52"
+      data-testid="checkout-button"
+    >
       <FontAwesomeIcon
         icon={faShoppingBag}
         className="fa-fw self-center"

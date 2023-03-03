@@ -11,7 +11,10 @@ function Header() {
   const isMobile = useScreenSize('(max-width: 767px)');
 
   return (
-    <header className="bg-tropical-indigo text-white md:p-6">
+    <header
+      className="bg-tropical-indigo text-white md:p-6"
+      data-testid="header"
+    >
       {isMobile ? (
         <div className="flex flex-col">
           <div className="flex justify-between p-6">

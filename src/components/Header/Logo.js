@@ -1,6 +1,6 @@
 function Logo() {
   return (
-    <h1 className="mb-1.5 flex md:w-52">
+    <h1 className="mb-1.5 flex md:w-52" data-testid="logo">
       <a href="/" className="font-rampart md:self-center">
         PIXEDELIC
       </a>
