@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header on desktop renders correctly: desktop 1`] = `
+<div>
+  <header
+    class="bg-tropical-indigo text-white md:p-6"
+    data-testid="header"
+  >
+    <div
+      class="flex justify-around"
+    >
+      <h1
+        class="mb-1.5 flex md:w-52"
+        data-testid="logo"
+      >
+        <a
+          class="font-rampart md:self-center"
+          href="/"
+        >
+          PIXEDELIC
+        </a>
+      </h1>
+      <nav
+        data-testid="navigation"
+      >
+        <ul
+          class="flex text-xl md:gap-10"
+        >
+          <li
+            class="flex h-16 w-1/2 justify-center bg-persian-pink md:h-11 md:bg-opacity-0"
+          >
+            <a
+              class="self-center font-bold"
+              href="/"
+            >
+              HOME
+            </a>
+          </li>
+          <li
+            class="flex h-16 w-1/2 justify-center bg-light-green md:h-11 md:bg-opacity-0"
+          >
+            <a
+              class="self-center font-bold"
+              href="/shop"
+            >
+              SHOP
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="flex justify-end text-3xl md:w-52"
+        data-testid="checkout-button"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-bag-shopping fa-fw self-center"
+          data-icon="bag-shopping"
+          data-prefix="fas"
+          focusable="false"
+          pointer-events="none"
+          role="img"
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Header on mobile renders correctly: mobile 1`] = `
+<div>
+  <header
+    class="bg-tropical-indigo text-white md:p-6"
+    data-testid="header"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <div
+        class="flex justify-between p-6"
+      >
+        <button
+          class="self-center text-3xl"
+          data-testid="toggle-button"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-bars fa-fw"
+            data-icon="bars"
+            data-prefix="fas"
+            focusable="false"
+            pointer-events="none"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <h1
+          class="mb-1.5 flex md:w-52"
+          data-testid="logo"
+        >
+          <a
+            class="font-rampart md:self-center"
+            href="/"
+          >
+            PIXEDELIC
+          </a>
+        </h1>
+        <button
+          class="flex justify-end text-3xl md:w-52"
+          data-testid="checkout-button"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-bag-shopping fa-fw self-center"
+            data-icon="bag-shopping"
+            data-prefix="fas"
+            focusable="false"
+            pointer-events="none"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+      </div>
+      <nav
+        data-testid="navigation"
+      >
+        <ul
+          class="flex text-xl md:gap-10"
+        >
+          <li
+            class="flex h-16 w-1/2 justify-center bg-persian-pink md:h-11 md:bg-opacity-0"
+          >
+            <a
+              class="self-center font-bold"
+              href="/"
+            >
+              HOME
+            </a>
+          </li>
+          <li
+            class="flex h-16 w-1/2 justify-center bg-light-green md:h-11 md:bg-opacity-0"
+          >
+            <a
+              class="self-center font-bold"
+              href="/shop"
+            >
+              SHOP
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+`;
